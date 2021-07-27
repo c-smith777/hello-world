@@ -21,24 +21,23 @@ main{
 	width: 60%;
 	margin-left: 20%;
 	margin-right: 20%;
-	min-height: calc(100vh-400px)
-	/*background: #f5a7a2;*/
+	min-height: calc(100vh - 400px);
+	background: #f5a7a2;
 }
 
 aside{
 	width: 20%;
 	position: absolute;
-	/* make the left aside positioned in the top left corner and the right aside positioned in the top right corner */
 }
 
 aside:first-child{
 	top: 0px;
-	right: 0px;
+	left: 0px;
 }
 
 aside:last-child{
 	top: 0px;
-	left: 0px; 
+	right: 0px; 
 }
 
 #content{
@@ -52,8 +51,4 @@ body{
 
 header, footer{
 	background: #f25b50;
-}
-
-main{
-	background: #f5a7a2;
 }
