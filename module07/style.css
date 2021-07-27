@@ -19,8 +19,8 @@ footer{
 
 main{
 	width: 60%;
-	margin:-left: 20%;
-	margin-right: 20;
+	margin-left: 20%;
+	margin-right: 20%;
 	min-height: calc(100vh-400px)
 	/*background: #f5a7a2;*/
 }
