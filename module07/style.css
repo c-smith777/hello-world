@@ -31,6 +31,10 @@ aside{
 	<!-- make the left aside positioned in the top left corner and the right aside positioned in the top right corner -->
 }
 
+#content{
+	position: relative;
+}
+
 body{
 	margin: 0;
 	padding: 0;
