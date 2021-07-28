@@ -1,0 +1,17 @@
+div{
+	margin: 2em;
+	padding: 2em;
+	border: 1em;
+	width: 30em;
+	background-color: cyan;
+	border-style: solid;
+	border-color: hotpink;
+}
+
+.first{
+	box-sizing: content-box;
+}
+
+.second{
+	box-sizing: border-box;
+}
