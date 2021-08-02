@@ -25,7 +25,6 @@ selector {
 	green:#00cc66;	
 	red: #aa0000;
 	yellow: #DFE69E rgba(255,255,100,0.5);
-
 ----------------------------------------------------------------
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------
@@ -40,7 +39,6 @@ selector {
 # Other
 # Templates
 # Media Queries
-
 --------------------------------------------------------------*/
 
 
@@ -238,22 +236,28 @@ iframe {
     }
     @keyframes arrowlight {
       0% {
-        background-image:none;
+        background-image:url(image/arrow.png);
+      }
+      21%{
+        background-image: url(image/arrow.png);
+      }
+      22%{
+        background-image: none;
       }
       50% {
         background-image:none;
       }
       51% {
-        background-image:url(image/arrow.png);
+        background-image:none;
       }
       90% {
-        background-image:url(image/arrow.png);
+        background-image:none;
       }
       91% {
-        background-image:none;
+        background-image:url(image/arrow.png);
       }
       100% {
-        background-image:none;
+        background-image:url(image/arrow.png);
       }
       
     }
