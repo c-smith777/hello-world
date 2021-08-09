@@ -1,0 +1,50 @@
+table{
+	width: 100%;
+	min-height: 100vh;
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+
+/*table, th, td {
+  border: 1px solid black;
+}*/
+
+.header{
+	height: 200px;
+	vertical-align: top;
+	text-align: center;
+}
+
+.footer{
+	height: 200px;
+	vertical-align: top;
+	text-align: center;
+}
+
+.main{
+	min-width: 600px;
+	text-align: left;
+	vertical-align: top;
+}
+
+.sidebar{
+	width: 20%;
+	vertical-align: top;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.header, .footer{
+	background: #db7f3b;
+}
+
+.sidebar{
+	background: #ed9453;
+}
+
+.main{
+	background: #e3a06f;
+}
