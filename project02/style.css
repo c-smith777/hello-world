@@ -41,7 +41,7 @@ body{
 	}
 
 
-@media screen and (max-width: 576px){
+@media screen and (max-width: 575px){
 	/*small-default*/
 	body{
 		display: grid;
@@ -56,7 +56,7 @@ body{
 	}
 }
 
-@media screen and (min-width: 577px){
+@media screen and (min-width: 576px) and (max-width: 991px){
 	/*medium-tablet*/
 	/*
 	Visual aid
