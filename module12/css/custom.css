@@ -1,1 +1,50 @@
+/*I didn't understand what was supposed to go here (custom.css) so after I wrote all the code in the base.css I transfered it to here and commented out the original code in the base.css file. I hope this is what you meant for us to do, if not sorry for the misunderstanding.
 
+.section {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 100%;
+}
+
+.nav{ 
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.nav a {
+  padding-left: 0;
+  padding-right: 0;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 15%;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.boxes{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.boxes div {
+  border-radius: 5px;
+  padding: 10px 10px 0 10px;
+  background-color: rgba(0,0,0,.1);
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 250px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}*/
