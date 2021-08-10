@@ -612,14 +612,11 @@ body {
   max-width: 960px;
   margin: 0 auto;
   padding: 20px;
-
-  /*Added*/
   max-width: 100%;
 }
 
-/*Added*/
+
 .nav{ 
-  /*Is this in the correct spot? And is space-between correct?*/
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -698,9 +695,8 @@ form input {
   color: black;
 }
 
-/*Added*/
+
 .boxes{
-  /*Is this in the correct spot?*/
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -710,14 +706,10 @@ form input {
   border-radius: 5px;
   padding: 10px 10px 0 10px;
   background-color: rgba(0,0,0,.1);
-
-  /*Added*/
-  /*Is this in the correct spot?*/
   flex-grow: 1;
   flex-shrink: 1;
   flex-basis: 250px;
   margin: 10px;
-
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -726,7 +718,7 @@ form input {
   margin-top: auto;
 }
 
-/*Added*/
+
 .footer{
   display: flex;
   flex-direction: row;
