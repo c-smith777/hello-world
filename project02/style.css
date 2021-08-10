@@ -42,12 +42,6 @@ body{
 
 @media screen and (min-width: 576px) and (max-width: 991px){
 	/*medium-tablet*/
-	/*
-	Visual aid
-
-	footer{
-		background-color: purple;
-	}*/
 	body {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
